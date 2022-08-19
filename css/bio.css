@@ -1,0 +1,300 @@
+
+	margin: 0%;
+}
+:root{
+	scroll-behavior: smooth;
+}
+header{
+	height: 100vh;
+	width: 100%;
+	background-image:url(pexels-sippakorn-yamkasikorn-3696170.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.logo{
+ position: fixed;
+ top: 30px;
+ right: 30px;
+ width: 100px;
+ height: 100px;
+ cursor: pointer;
+ border-radius: 10px;
+ box-shadow: 0 0 0 6px rgba(0,0,0,0.5s);
+ z-index: 10000;
+}
+.menu{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 20vw;
+	height: 100%;
+	background-image: linear-gradient(to top, #62a4368d 3%, #225b1e82 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	transition: transform .3 ease-in-out;
+	transform: translate(110%);
+	box-shadow: 0 0 0 6px rgba(0,0,0,.5);
+	z-index: 1;
+	
+}
+.spread{
+	transform: translate(0);
+}
+.menu a {
+	color: black;
+	text-decoration: none;
+}
+/*.boton{
+
+} */
+.contenedor_head{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	text-shadow: 1px 3px 0 #222222, 1px 13px 5px #aba8a8;
+
+	}
+	
+
+
+.titulo{
+	font-size: 60px;
+	margin-bottom: 15px;
+	color: #FFFFFF;
+	text-shadow: 1px 3px 0 #3f3f3f, 1px 13px 5px #626262;
+	color: #FFFFFF;
+
+}
+.contenedor_principal{
+ 	height: 410vh;
+}
+.productos{
+	background-image: url(/carrusel/pexels-fino-tereno-12523495.jpg);
+	display: flex;
+	align-items: center;
+	height: 115vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+main div.container .row{
+	box-shadow: 0 1px 0 #e8e1e100;
+    padding-bottom: 0;
+    padding-left: 15px;
+    background-color: transparent;
+    margin-bottom: 11px;
+}
+main div.container .carousel-item {
+	display: flex;
+    flex-direction: column;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+    justify-content: flex-end;
+}
+.subtitulo {
+    margin: 0;
+    color: #ddd;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.sabor { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+/*
+Estilos Materializa (carousel)
+*/
+.carousel{
+	min-height: 500px;
+}
+.carousel .carousel-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	user-select: none;
+	width: 500px;
+	height: 500px;
+}
+.carousel .carousel-item img{
+	width: 100%;
+    height: 296px;
+    object-fit: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 66px;
+
+
+}
+.ubicacion{
+	height: 115vh;
+	background-color: hwb(125 21% 75% / 0.963);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+
+
+}
+.donde_nos_ubicamos{
+	color: white;
+	text-shadow: 1px 3px 0 #3f3f3f, 1px 13px 5px #626262;
+	height: 150px;
+    padding: 48px;
+}
+.mapa{
+	width: inherit;
+	height: 115vh;
+	background-color: #FFFFFF;
+	display: inherit;
+	justify-content: space-around;
+    align-items: center;
+	padding: 48px 1px 130px 2px;
+}
+.mapa_border{
+	border-radius: 5%;
+}
+.cotizaciones{
+	height: 115vh;
+	width: 100%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	align-content: stretch;
+
+}
+.contenedor_footer{
+	height: 100vh;
+
+}
+
+/*sobre nosotros*/
+*, *:before, *:after {
+	box-sizing: inherit;
+  }
+  .row_nosotros{
+	width: 100%;
+    height: 100%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+
+}
+	
+  .column_nosotros {
+	align-items: center;
+	float: left;
+	width: 25%;
+	margin-bottom: 16px;
+	padding: 0 10px;
+  }
+  
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+  }
+  .nosotros_fotos{
+	object-fit: contain;
+    width: 500px;
+    height: 300px
+
+
+
+
+  }
+  .about-section {
+	padding: 50px;
+	text-align: center;
+	background-color: hwb(125 21% 75% / 0.963);
+	color: white;
+  }
+  
+  .sobre_nosotros {
+	padding: 0 16px;
+  }
+  
+  .sobre_nosotros::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .title {
+	color: grey;
+  }
+  
+  .boton_sobre_nosotros {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+
+  }
+  .titulo_nosotros{
+	height: 80px;
+  }
+  .boton_sobre_nosotros:hover {
+	background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+	.column_nosotros {
+	  width: 100%;
+	  display: block;
+	}
+  }
+.imagen-nosotros{
+	position: fixed;
+	background: rgba(0,0,0,.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer .agregar-imagen-nosotros{
+	width: 60%;
+	border-radius: 10px;
+
+}
+.close{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	color: #000;
+}
+

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bio.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="js/cotizacion.js">
+    <title>Biofertilizante</title>
+  </head>
+  <body>
+    <header>
+      <img src="carrusel/Logo floristeria circular.png" alt="logo" class="logo" />
+      <nav class="menu">
+        <a href="#inicio" class="boton"> INICIO </a>
+        <a href="#productos" class="boton"> PRODUCTOS </a>
+        <a href="#ubicacion" class="boton"> UBICACION </a>
+        <a href="#cotizaciones" class="boton"> COTIZACIONES </a>
+        <a href="#nosotros" class="boton"> SOBRE NOSOTROS </a>
+      </nav>
+      <div class="contenedor_head" id="inicio">
+        <h1 class="titulo">BIOFERTILIZANTES</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, iste
+          impedit expedita fugit est omnis eaque! Quae, cumque harum.
+          Aspernatur!
+        </p>
+      </div>
+    </header>
+    <main class="contenedor_principal" >
+      <section class="productos" id="productos">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h2 class="center-align titulo">Que necesitas?</h2>
+              <br/>
+              <div class="carousel center-align">
+                <div class="carousel-item">
+                  <h2 class="subtitulo">Fertilizante</h2>
+                  <img
+                    src="carrusel/bio.png"
+                    alt=""
+                  />
+                  <div class="linea-division"></div>
+                  <p class="sabor">Organico</p>
+                </div>
+                <div class="carousel-item">
+                  <h2 class="subtitulo">Fertilizante</h2>
+                  <img src="carrusel/lombrices.jpeg" alt="" />
+                  <div class="linea-division"></div>
+                  <p class="sabor">Organico</p>
+                </div>
+                <div class="carousel-item">
+                  <h2 class="subtitulo">Fertilizante</h2>
+                  <img src="carrusel/biofertilizante2.png" alt="" />
+                  <div class="linea-division"></div>
+                  <p class="sabor">Organico</p>
+                </div>
+                <div class="carousel-item">
+                  <h2 class="subtitulo">Fertilizante</h2>
+                  <img src="carrusel/Logo floristeria circular.png" alt="" />
+                  <div class="linea-division"></div>
+                  <p class="sabor">Organico</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ubicacion" id="ubicacion">
+        <h2 class="donde_nos_ubicamos" style="text-align: center;">Donde nos ubicamos?</h2>
+        <div class="mapa">
+          <iframe
+            class="mapa_border"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.748132418209!2d-107.32533608499759!3d24.83828558406432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4cb472a43d9dbb3!2zMjTCsDUwJzE3LjgiTiAxMDfCsDE5JzIzLjMiVw!5e0!3m2!1ses!2smx!4v1660182066960!5m2!1ses!2smx"
+            width="60%_nosotros"
+            height="100%"
+            style="border: 0"
+            allowfullscreen="true"
+            loading="lazy"
+
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="cotizaciones" id="cotizaciones">
+        <nav class="navbar">
+          <div class="container">
+            <a class="navbar-brand " href="#">Cotizaciones</a>
+            <div class="navbar-right">
+              <div class="container minicart"></div>
+            </div>
+          </div>
+        </nav>
+
+        </div>
+      
+        <div class="container text-center">
+          <div class="col-md-7 col-sm-12 text-left">
+            <ul>
+              <div style="
+              display: flex;
+              flex-direction: row-reverse;
+              justify-content: space-between;
+              height: 70px;
+              align-items: center;
+              ">
+                <li class="row list-inline columnCaptions" style="display: inline;">
+                  <span style="padding-right: 13px;">Precio</span>
+                  <span style="padding-left: 143px;padding-right: 36px;">Cantidad</span>
+                </li>
+                <li class="row list-inline columnCaptions">
+                  <span style="padding-right: 9px;padding-left: 66px;">Producto</span>
+                  <span style="padding-left: 104px;">Nombre</span>
+                </li>
+              </div>
+              <li class="row cotizacion">
+                <img class="quantity" src="carrusel/Logo floristeria circular.png" alt="" height="5%"></span>
+                <span class="itemName">Hummus </span>
+                <span class="price" >
+                  <input type="number" id="cotizacion_Hummus" style="text-align: center;"></span><span class="price fert">3$ / Kg</span>
+              </li>
+
+              <li class="row cotizacion">
+                <img class="quantity" src="carrusel/bio.png" alt="" height="5%"></span>
+                <span class="itemName">Liquid Hummus </span> 
+                <span class="price" >
+                  <input type="number" id="cotizacion_Liquid _Hummus" style="text-align: center;"></span><span class="price fert">2$ / Lts</span>
+              </li>		
+              
+              <li class="row cotizacion">
+                <img class="quantity" src="carrusel/biofertilizante2.png" alt="" height="5%"></span>
+                <span class="itemName">Tierra</span>
+                <span class="price" >
+                  <input type="number" id="cotizacion_tierra" style="text-align: center;"></span><span class="price fert">15$ / Kg</span>
+              </li>
+              <li class="row cotizacion ">
+                <img class="quantity" src="carrusel/Logo floristeria circular.png" alt="" height="5%"></span>
+                <span class="itemName">Gusanos</span>
+                <span class="price">
+                <input type="number" id="cotizacion_gusanos" style="text-align: center;">
+                </span>
+                <span class="price fert" >3$ / Pza</span>
+              </li>		
+                
+              <li class="row totals" style="
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-between;
+              width: 100%;">
+                <span class="itemName" id="order"style="width: 70%;">Total:</span>
+                <!--<span id="order"></span> -->
+                <input class="order"  type="button" id="cotizacion" onclick="cotizacion()" value="Cotizar"  text-align: center; > <!----<a class="text-center">ORDER</a> -->
+                
+              </li>
+            </ul>
+          </div>
+
+        </div >
+
+          <!-- The popover content -->
+
+        <div id="popover" style="display: none">
+          <a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+          <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+        </div>
+    	</section>
+    </main>
+    <footer class="contenedor_footer" id="nosotros">
+      <div class="about-section">
+        <h2>About Us Page</h2>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+      </div>
+      <div class="galeria">
+        <h2 style="text-align: center;"> Our Team</h2>
+        <div class="row_nosotros">
+          <div class="column_nosotros">
+            <div class="card">
+              <img class="nosotros_fotos" src="nosotros/yo.jpg" alt="Jane" style="width:100%">
+              <div class="sobre_nosotros">
+                <h2 class="titulo_nosotros">Marco villegas </h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>jane@example.com</p>
+                <p><button class="boton_sobre_nosotros">Contact</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="column_nosotros">
+            <div class="card">
+              <img class="nosotros_fotos" src="nosotros/edna.jpg" alt="Jane" style="width:100%">
+              <div class="sobre_nosotros">
+                <h2 class="titulo_nosotros">Edna de león</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>jane@example.com</p>
+                <p><button class="boton_sobre_nosotros">Contact</button></p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="column_nosotros">
+            <div class="card">
+              <img class="nosotros_fotos" src="nosotros/angelica.jpg" alt="Mike" style="width:100%">
+              <div class="sobre_nosotros">
+                <h2 class="titulo_nosotros">Angelica astorga</h2>
+                <p class="title">Art Director</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>mike@example.com</p>
+                <p><button class="boton_sobre_nosotros">Contact</button></p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="column_nosotros">
+            <div class="card">
+              <img class="nosotros_fotos" src="nosotros/blannier.jpg" alt="John" style="width:100%">
+              <div class="sobre_nosotros">
+                <h2 class="titulo_nosotros">Blannier Guevara</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>john@example.com</p>
+                <p><button class="boton_sobre_nosotros">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+        <section class="imagen-nosotros">
+          <img src="images/x-regular-24.png" alt="X" class="close">
+          <div class="column_nosotros">
+            <div class="card">
+              <img src="nosotros/yo.jpg" alt="Jane" style="width:100%">
+              <div class="sobre_nosotros">
+                <h2 class="titulo_nosotros">Le Negre Le Pute</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>jane@example.com</p>
+                <p><button class="boton_sobre_nosotros">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        -->
+      </div>
+
+    </footer>
+
+
+
+
+
+
+    <!-- Js menu -->
+    <script src="js/menu.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Js main -->
+    <script src="js/main.js"></script>
+    <!-- Js tienda -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/customjs.js"></script>
+  <script src="js/cotizacion.js"></script>
+  </body>
+</html>

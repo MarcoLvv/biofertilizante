@@ -1,0 +1,151 @@
+*{
+ margin: 0%;
+}
+.titulo{
+    height: 210px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+
+}
+.imagen{
+    margin-left: 252px;
+    margin-right: 200px;
+    height: 55px;
+}
+.logo{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.navegacion{
+    height: 55px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.navegar{
+    height: 25px;
+    width: 99%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+}
+.boton{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 00;
+    text-decoration: none;
+
+    
+}
+.presentacion{
+    height: 21                                                                                   0vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.portada{
+    height: 400px;
+    margin: 5px;
+}
+.carnicos{
+    background-color: white;
+    width: 99%;
+    margin: 50px 0;
+}
+.mostradorcarnes{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+
+}
+h2{
+    text-align: center;
+}
+.cotizaciones{
+    height: 300px;
+    width: 99vw;
+    background-color: aliceblue;
+}
+.paraelhogar{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+}
+.hogarfotos{
+    height: 330px;
+}
+.hogar{
+    width: 99%;
+    margin: 50px 0;
+}
+.paratuparrilla{
+    width: 99%;
+    margin: 50px 0;
+
+}
+.parrilla{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+}
+.parrillafotos{
+    height: 330px;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35vh;
+
+}
+.email{
+    border: 1px solid #000;
+    text-align: center;
+    width: 40vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.subscribirse{
+    height: 5vh;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.subscripcion{
+    height: 100px;
+    width: 50px;
+
+}
+.redes_sociales{
+    border: 1px solid #000;
+    text-align: center;
+    line-height : 50px;;
+    width: 40vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email_logo{
+    width: 70px;
+}
