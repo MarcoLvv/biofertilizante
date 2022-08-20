@@ -73,10 +73,10 @@ header{
 
 }
 .contenedor_principal{
- 	height: 410vh;
+ 	height: 335vh;
 }
 .productos{
-	background-image: url(/carrusel/pexels-fino-tereno-12523495.jpg);
+	background-image: url(pexels-fino-tereno-12523495.jpg);
 	display: flex;
 	align-items: center;
 	height: 115vh;
@@ -217,15 +217,7 @@ Estilos Materializa (carousel)
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin: 8px;
   }
-  .nosotros_fotos{
-	object-fit: contain;
-    width: 500px;
-    height: 300px
-
-
-
-
-  }
+  
   .about-section {
 	padding: 50px;
 	text-align: center;
@@ -297,4 +289,3 @@ footer .agregar-imagen-nosotros{
 	cursor: pointer;
 	color: #000;
 }
-
